@@ -27,6 +27,7 @@ const MessageSchema = {
     timestamp: 'date',
     isSender: 'bool',
     type: 'string?',
+    seen: { type: 'bool', default: false }, // Add a 'seen' flag (default: false)
   },
   primaryKey: '_id',
 };

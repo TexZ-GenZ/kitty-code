@@ -1,21 +1,67 @@
 # Dependencies
 node_modules/
-   
-# Environment files
-*.env
-   
+.pnp/
+.pnp.js
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # Build outputs
 build/
 dist/
-   
-# IDE files
-.vscode/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# IDE
 .idea/
-   
-# macOS specific
+.vscode/
+*.swp
+*.swo
+
+# OS
 .DS_Store
-.AppleDouble
-.LSOverride
+Thumbs.db
 
+# Mobile
+*.keystore
+!debug.keystore
 
+# Testing
+/coverage
 
+# Production
+/build
+
+# Backend specific
+backend/newKey.pem
+backend/uploads/
+
+# Frontend specific
+frontend/.env
+frontend/build/
+
+# React Native
+reactnative/ios/Pods/
+reactnative/android/app/build/
+reactnative/.gradle/
+reactnative/android/.gradle/
+reactnative/android/captures/
+reactnative/android/local.properties
+reactnative/ios/build/
+reactnative/*.hprof
+
+# ML Models
+ml/models/
+*.h5
+*.pkl
+*.model

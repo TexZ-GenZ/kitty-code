@@ -19,7 +19,7 @@ import { GoogleSignin, statusCodes } from '@react-native-google-signin/google-si
 import { generateKeyPair, getPrivateKey } from "../utils/crypto";
 import { encode as encodeBase64 } from "@stablelib/base64";
 
-const BASE_URL = "http://192.168.137.14:3000";  // Backend URL
+const BASE_URL = "https://edfb-117-99-212-221.ngrok-free.app";  // Backend URL
 // const BASE_URL = "http://3.26.156.142:3000";
 
 export default function LoginScreen() {

@@ -4,8 +4,8 @@ import { FontAwesome } from '@expo/vector-icons';
 import { useFonts } from 'expo-font';
 import { useLocalSearchParams, useRouter  } from 'expo-router';
 
-const BASE_URL = "http://3.26.156.142:3000";
 
+const BASE_URL = "https://edfb-117-99-212-221.ngrok-free.app";
 const NotificationScreen = () => {
   const { userId } = useLocalSearchParams(); 
   const router = useRouter();  // Initialize useRouter for navigation

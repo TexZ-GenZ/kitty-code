@@ -3,9 +3,7 @@ import { View, Text, FlatList, StyleSheet, TouchableOpacity, Modal, TextInput, A
 import { AntDesign } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import { openRealm } from '../utils/realmManager';
-
-const BASE_URL = "http://3.26.156.142:3000";
-
+const BASE_URL = "https://edfb-117-99-212-221.ngrok-free.app";
 
 const Friends = ({ userId, username }) => {
   const [isModalVisible, setIsModalVisible] = useState(false);
